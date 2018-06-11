@@ -17,6 +17,7 @@ FROM
 	tmp_msadowski_loans a
 LEFT JOIN tmp_msadowski_merchants b
     ON a.merchant_id = b.merchant_id
+--this dim table is just a mapping to easily change data from daily to weekly
 LEFT JOIN dim_date:operations c
     ON DATE_FORMAT(DATE_PARSE(a.checkout_date, '%m/%d/%y %k:%i'), '%Y-%m-%d') = c.dateid
 GROUP BY
