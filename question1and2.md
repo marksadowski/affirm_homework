@@ -15,6 +15,8 @@ Another thing that stuck out to me was the `users_first_capture` column. Instead
 
 As I was exploring customer/market segments in question 3 I also noticed that the last few days in market there seems to be about 20-40 events per daily with a NULL market category. We likely had a new merchant launch and hasn't had a category assigned to them, or they are a new category all together which needs to be put into the static merchants table.
 
+*Note: also found that ARPU for jewelry completely tanked for this week as well while trying to answer question 4.*
+
 Finally, the checkout table. Besides the same things I pointed out above (zero default values and poor date formatting), nothing from a technical data issue stuck out to me. I looked at various things such as the number of events for each step in the funnel per merchant to make sure the numbers were monotonically decreasing:
 `SELECT merchant_id, action, COUNT(*) AS ct FROM tmp_msadowski_funnel GROUP BY merchant_id, action ORDER BY merchant_id, COUNT(*) DESC`
 
