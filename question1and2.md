@@ -40,6 +40,8 @@ GROUP BY checkout_id
 )
 ```
 
+*Note: also found that ARPU for jewelry completely tanked for this week as well while trying to answer question 3. Got tired of revamping my answer to this question, hence the simple note :)*
+
 # Question 2
 ## Calculate  conversion  through  the  funnel  by  day  such  that  the  data  structure  is...
 
