@@ -64,3 +64,19 @@ ORDER by
 
 ![](q3_g2.png)
 ![](q3_g3.png)
+
+# Question 4 Supplemental
+
+I gave two discrete recommendation in the PowerPoint, and in general I want to really hone in on the product and experience. There are a lot of experiments we can run with the current product, ranging from different UIs for the flow to asking different questions within the flow to working with our merchants to change the visibility a potential customer sees about Affirm while shopping (are they exposed to us as a payment option before they put an item in their checkout? during? or only when they enter the merchant checkout flow?).
+
+Also, as a nimble startup, we can spend a lot of time leveraging our list of early adopters on new minimally viable products we come up with that we want to test in the market. Whether that is offering customers a line of credit that can be brought with them to a range of merchants (like PayPal Credit) or offering some more traditional banking products. 
+
+# Question 5
+
+Overall, this was a good exercise. It's hard to find a balance in figuring out how much data to supply for these homeworks. Supply too much and the candidate can spend hours upon hours coming up with different slices and groupings to try to explain what's happening. Too few and it hamstrungs the candidate in getting creative and showing their ability. Although there were additional data cuts that I did not get to due to time constraints, I believe the homework was more balanced than most other companies. 
+
+I did notice that even though I did a lot of the standard EDA data integrity checks for question 1, I found myself appending to my answer as I was going through questions 2 and 3, which started to sap some time. May want to scrap question 1 all together and instead explicitly tell the candidate that they should not assume that the data is tidy and error-free and then see if they find any issues with the data while going through questions 2-4. 
+
+I'm always lukewarm on PowerPoint requirements in these kind of homeworks. I understand the signal you are looking for (can you distill your ideas and recommendations to an executive and/or non-technical group), but it's quite challenging to find a balance when the medium is a text-based homework assignment and not an actual presentation. I've been dinged on homeworks in the past for not giving enough context in a PowerPoint, but my counter to that is that you shouldn't add everything to a PowerPoint because it's meant to be presented on and not necessarily read. I aired on the side of caution and had text-heavy slides for this assignment, but for a live presentation it would have had far fewer and I would have made my various points audibly. 
+
+Thank you for your time.
